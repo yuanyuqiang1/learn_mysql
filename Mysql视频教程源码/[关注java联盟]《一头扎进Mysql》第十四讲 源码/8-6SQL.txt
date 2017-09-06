@@ -1,0 +1,5 @@
+INSERT INTO v1 VALUES(NULL,'java good',120,'feng',1);
+
+UPDATE v1 SET bookName='java very good',price=200 WHERE id=5;
+
+DELETE FROM v1 WHERE id=5;

@@ -1,0 +1,3 @@
+UPDATE t_book SET bookName='Java编程思想',price=120 WHERE id=1;
+
+UPDATE t_book SET bookName='我' WHERE bookName LIKE '%我爱我家%';

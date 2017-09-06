@@ -1,0 +1,7 @@
+INSERT INTO t_book VALUES(NULL,'我爱我家',20,'张三',1);
+
+INSERT INTO t_book(id,bookName,price,author,bookTypeId) VALUES(NULL,'我爱我家',20,'张三',1);
+
+INSERT INTO t_book(bookName,author) VALUES('我爱我家','张三');
+
+INSERT INTO t_book(id,bookName,price,author,bookTypeId) VALUES (NULL,'我爱我家2',20,'张三',1),(NULL,'我爱我家3',20,'张三',1);
